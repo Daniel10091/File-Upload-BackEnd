@@ -1,2 +1,10 @@
 server:
   port: 8081
+
+app.path.arquivos: /Users/cdaniel/Documents/Files-Uploaded/
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
